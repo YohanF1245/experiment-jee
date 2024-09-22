@@ -15,4 +15,13 @@ version="3.0">
 		<url-pattern>/bonjour</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>Acceuil</servlet-name>
+		<servlet-class>com.yferdin.servlets.Acceuil</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Acceuil</servlet-name>
+		<url-pattern>/accueil</url-pattern>
+	</servlet-mapping>
 </web-app>
