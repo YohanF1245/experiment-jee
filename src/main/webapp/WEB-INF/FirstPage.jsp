@@ -7,6 +7,7 @@
 <title>First page</title>
 </head>
 <body>
+	<%@ include file="Menu.jsp" %>
 	<h1>Premiere page</h1>
 	<p>Bonjour, bienvenue sur mon premier JSP</p>
 	<p>Nous sommes le 
