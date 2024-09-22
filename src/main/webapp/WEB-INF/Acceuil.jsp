@@ -9,5 +9,11 @@
 <body>
 	<%@ include file="Menu.jsp" %>
 	<p>accueil du site</p>
+	<p>Parametre envoyé: 
+	
+	<% 
+	String name = (String) request.getAttribute("name");
+	out.println(name);
+	%>
 </body>
 </html>
