@@ -18,11 +18,7 @@ public class Test extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.setContentType("text/html");
-		response.setCharacterEncoding("UTF-8");
-		
-		PrintWriter out = response.getWriter();
-		out.println("bonjour");
+		this.getServletContext().getRequestDispatcher("/WEB-INF/FirstPage.jsp").forward(request, response);
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
