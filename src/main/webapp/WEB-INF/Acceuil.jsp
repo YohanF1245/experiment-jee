@@ -7,6 +7,7 @@
 <title>Accueil</title>
 </head>
 <body>
+	<%@ include file="Menu.jsp" %>
 	<p>accueil du site</p>
 </body>
 </html>
